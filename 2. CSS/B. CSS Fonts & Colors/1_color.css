@@ -1,0 +1,33 @@
+/* 
+First we add only color content then after completing we add background color
+*/
+
+/* Named color */
+h1{
+    color: blue;
+    background-color: aqua;
+}
+h3{
+    color: pink;
+}
+
+/* RGB color- value(0-255) at te end we add a meand alpha */
+h1{
+    color: rgb(13, 220, 18);
+}
+
+/* Hexadecimal color- afte # fill 6 number containg alphabet also meand 0 to F  - starting 2 digit show red after 2 green after 2 blue*/
+h3{
+    color: #F5942d;
+}
+/* HSL color */
+p{
+    color: hsl(40, 80%, 60%);
+}
+
+/* Background Image */
+body{
+    background-image: url(pexels-ferarcosn-190819.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}

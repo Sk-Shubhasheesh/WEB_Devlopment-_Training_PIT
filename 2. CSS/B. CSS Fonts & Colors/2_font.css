@@ -1,0 +1,26 @@
+/* 
+1. Pixel size is determinde by your device size.
+2. em, relative to parent font size which is normally body & the size of body is 16px but its vary from browser to browser.
+3. rem, relative to html font size.
+4.  %, relative to parent font size.
+5. vw, relative to the % of viewport width 
+*/
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: larger */
+    /* font-size: 30px; */
+    /* font-size: 3em; */
+    /* font-size: 3rem; */
+    /* font-size: 30%; */
+    /* font-size: 10vw; */
+    font-size: 10vh;
+    font-weight: 100;
+    font-style: italic;
+}
+#first{
+    /* line-height: 20px; */
+    line-height: 1.9;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
