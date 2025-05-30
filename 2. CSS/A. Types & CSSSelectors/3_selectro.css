@@ -1,0 +1,21 @@
+/* Univeral Selector */
+
+/* body{
+    background-color: aqua;
+} */
+
+/* with the help of * we select the all the tag  */
+*{
+    background-color: aqua;
+    color: brown;
+}
+
+/* Grouping Selectors */
+h3, h4{
+    background-color: blue;
+}
+
+/* Child selector  */
+section > p{
+    background-color: black;
+}

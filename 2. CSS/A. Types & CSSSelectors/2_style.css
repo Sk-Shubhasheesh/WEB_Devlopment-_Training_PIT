@@ -1,0 +1,21 @@
+/* Element Selector */
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+ul{
+    color: blue;
+    background-color: brown;
+}
+/* Class Selector - access using dot first */
+.first{
+    background-color: blue;
+}
+.second{
+    color: red;
+}
+
+/* Id Selector - Select by id (unique) accessing using # */
+#third{
+    color: brown;
+}
