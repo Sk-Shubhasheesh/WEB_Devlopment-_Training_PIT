@@ -1,0 +1,48 @@
+/* .first {
+    background-color: orange;
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+} */
+
+.second {
+    background-color: aqua;
+    height: 200px;
+    width: 250px;
+    margin: 40px;
+}
+
+/* 
+We make inline element into block level using display block property
+*/
+/* span {
+
+    background-color: chocolate;
+    margin: 50px; 
+    display: block;
+    height: 200px;
+    width: 250px;
+    margin: 40px;
+} */
+/* 
+We make iblock element into inline element using display inline property
+*/
+.first {
+    display: inline;
+    background-color: orange;
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+}
+
+/* 
+If we use display: inline -block property it is work as a inline element but we can apply hight & widhth on it easily
+*/
+
+span{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
