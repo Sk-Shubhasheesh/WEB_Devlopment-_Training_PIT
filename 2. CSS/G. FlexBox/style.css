@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    /* flex direction will identifymy main axix by default its value is row so if 
+    row: horizontal is main axix
+    column: vertical axix */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+
+    /* Justify content will be work around main axix */
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+
+    /* align-items content will be work around main axix */
+    /* align-items: end;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end; */
+    /* align-items: stretch; */
+
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    align-content: center;
+
+   
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: orange;
+}
