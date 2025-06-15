@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+.Box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: movement;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: linear;
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+
+    border-radius: 50%;
+}
+
+/* @keyframes movement {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: 0px;
+        left: 1000px;
+    }
+} */
+
+/* @keyframes movement {
+    from{
+       transform: translate(0px);
+    }
+    to{
+        /* transform: translate(600px); */
+         /* transform: translate(80vw,50vh);
+    } */
+/* } */
+
+@keyframes movement {
+    0%{
+        transform: translate(0vw, 0vh);
+    }
+    25%{
+        transform: translate(30vw, -30vh);
+    }
+    50%{
+        transform: translate(60vw);
+    }
+    75%{
+         transform: translate(30vw, -30vh);
+    }
+    100%{
+         transform: translate(0vw, 0vh);
+    }
+}
