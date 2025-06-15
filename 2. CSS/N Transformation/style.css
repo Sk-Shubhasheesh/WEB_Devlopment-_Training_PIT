@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 4rem;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+
+
+
+}
+
+/* Translate - Moves an element along the X and /or Y axes
+    scale()- resize an element. You can specify scaling for both X & Y axix
+
+    rotate()- rotates an element clockwise by a specified number of degrees
+    
+    skew()- tilts an element along the X or Y axis or both
+    
+ */
+
+ .Box:hover{
+    /* transform: translate(200px); */
+    /* transform: translate(-200px); */
+    /* transform: translate(400px, 300px); */
+
+    /* transform: scale(2);
+    transform: scale(2, 3); */
+
+    /* transform: rotate(45deg);
+    transform: rotate(-360deg); */
+
+    /* transform: skew(40deg);
+    transform: skew(-60deg); */
+
+    /* transform: translate(400px, 300px) scale(2) rotate(45deg); */
+
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+ }
